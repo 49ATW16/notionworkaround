@@ -1,0 +1,25 @@
+---
+const target = "marginnote4app://notebook/3C44B9EC-9678-4210-9420-EFDB462B8EF3";
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- Sofort-Fallback: Meta-Refresh -->
+    <meta http-equiv="refresh" content={`0;url=${target}`} />
+    <title>Opening MarginNote…</title>
+    <noscript>
+      <meta http-equiv="refresh" content={`0;url=${target}`} />
+    </noscript>
+  </head>
+  <body>
+    <script>
+      location.replace("marginnote4app://notebook/3C44B9EC-9678-4210-9420-EFDB462B8EF3");
+    </script>
+    <p>Falls nichts passiert, hier tippen:
+      <a href="marginnote4app://notebook/3C44B9EC-9678-4210-9420-EFDB462B8EF3">
+        In MarginNote öffnen
+      </a>
+    </p>
+  </body>
+</html>
